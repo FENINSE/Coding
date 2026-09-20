@@ -2,7 +2,6 @@ class Solution {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
        Arrays.sort(candidates);
        List<List<Integer>> list = new ArrayList<>();
-       boolean[] vis = new boolean[candidates.length];
        ArrayList<Integer> current = new ArrayList<>();
        findcomb(candidates, target, list,current,0); 
        return list;
