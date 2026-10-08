@@ -1,0 +1,1 @@
+select e.name as Customers from Customers e Left join Orders o on e.id = o.customerId where o.customerId is Null;
