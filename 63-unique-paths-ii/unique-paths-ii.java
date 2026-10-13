@@ -13,7 +13,6 @@ class Solution {
             int ways = solve(m-1,n-1,dp,obstacleGrid);
             return ways;
         }
-        //return ways;
     }
     static int solve(int m, int n, int[][] dp,int[][] grid){
         if(m==0 && n==0){
